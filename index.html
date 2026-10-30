@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Por Dentro · El porqué de lo que ves</title>
+<meta name="description" content="Vídeos cortos que abren las cosas de todos los días para enseñar cómo funcionan por dentro.">
+<link rel="icon" href="logo.svg">
+<meta property="og:title" content="Por Dentro">
+<meta property="og:description" content="El porqué de lo que ves.">
+<meta property="og:image" content="avatar.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{--noche:#0B0E13;--plano:#1D2633;--amarillo:#FFD60A;--acero:#A9B4BF;--blanco:#F4FBFF}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    font-family:Montserrat,system-ui,sans-serif;color:var(--blanco);padding:40px 16px;
+    background:radial-gradient(ellipse at 50% 30%,var(--plano) 0%,var(--noche) 75%);}
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;
+    background-image:linear-gradient(rgba(160,190,230,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(160,190,230,.07) 1px,transparent 1px);
+    background-size:40px 40px}
+  main{position:relative;width:100%;max-width:420px;text-align:center}
+  img{width:120px;height:120px}
+  h1{font-weight:900;font-size:44px;margin:18px 0 6px;letter-spacing:-1px}
+  h1 span{color:var(--amarillo)}
+  .lema{color:var(--acero);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:13px;margin:0 0 22px}
+  p.intro{line-height:1.5;color:#d5dde5;margin:0 0 28px}
+  a.red{display:flex;align-items:center;justify-content:center;gap:10px;margin:12px 0;padding:15px 18px;border-radius:14px;
+    background:rgba(29,38,51,.85);border:1px solid rgba(160,190,230,.18);color:var(--blanco);text-decoration:none;font-weight:700}
+  a.red:hover{border-color:var(--amarillo)}
+  footer{position:relative;margin-top:36px;font-size:13px;color:var(--acero)}
+  footer a{color:var(--acero)}
+</style>
+</head>
+<body>
+<main>
+  <img src="logo.svg" alt="Logotipo de Por Dentro">
+  <h1>Por <span>Dentro</span></h1>
+  <p class="lema">El porqué de lo que ves</p>
+  <p class="intro">Abrimos las cosas de todos los días para enseñar cómo funcionan: objetos, máquinas, fábricas, física e inventos. Animaciones propias y explicaciones claras en menos de un minuto.</p>
+  <a class="red" href="https://www.youtube.com/@pordentro_esp">▶ YouTube</a>
+  <a class="red" href="https://www.instagram.com/pordentro_es/">◎ Instagram</a>
+  <a class="red" href="https://www.tiktok.com/@pordentro_es">♪ TikTok</a>
+</main>
+<footer><a href="privacidad.html">Política de privacidad</a> · <a href="condiciones.html">Condiciones</a></footer>
+</body>
+</html>
